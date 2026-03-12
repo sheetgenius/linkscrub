@@ -73,4 +73,4 @@ None required for the web app. API (when live) will use API key in `Authorizatio
 
 ## Support
 
-https://bitterdesk.com
+https://bitterdesk.com/s/linkscrub/
