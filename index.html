@@ -90,6 +90,22 @@
           "@type": "Answer",
           "text": "UTM parameters (Urchin Tracking Module) are tags added to URLs to track the effectiveness of marketing campaigns. They were originally developed by Urchin Software (acquired by Google in 2005) and are now the industry standard for campaign attribution in Google Analytics and other tools. Common UTM tags include utm_source (where the traffic came from), utm_medium (the channel), and utm_campaign (the specific campaign name)."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "What if the URL has parameters that aren't tracking-related?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LinkScrub only removes known tracking parameters. Query parameters that aren't in the tracking list are preserved. If you need to remove custom parameters, you can edit the cleaned URL manually in the output field."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use LinkScrub from a browser extension or command line?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The web app is the free utility. A browser extension for right-click Scrub this link is a planned paid upgrade. Developer API and MCP tool support are also planned."
+        }
       }
     ]
   }
