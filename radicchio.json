@@ -1,0 +1,15 @@
+{
+  "api_base": "https://radicchio.fly.dev",
+  "files": [
+    "config.json",
+    "index.html",
+    "og.png",
+    "og.svg",
+    "privacy.html",
+    "robots.txt",
+    "sitemap.xml"
+  ],
+  "hostname": "linkscrub.radicchio.page",
+  "site_id": 12,
+  "site_name": "LinkScrub"
+}
